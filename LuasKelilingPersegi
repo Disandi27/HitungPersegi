@@ -1,0 +1,25 @@
+class Persegi
+  def initialize(panjang, lebar)
+    @panjang = panjang
+    @lebar = lebar
+  end
+
+  def luas
+    @panjang * @lebar
+  end
+
+  def keliling
+    @panjang * 2 + @lebar * 2
+  end
+end
+
+print "masukan panjang: "
+panjang = gets.chomp.to_i
+
+print "masukan lebar: "
+lebar = gets.chomp.to_i
+
+persegi = Persegi.new(panjang, lebar)
+
+puts "luas persegi: #{persegi.luas.to_s}" 
+puts "keliling persegi: #{persegi.keliling.to_s}"
