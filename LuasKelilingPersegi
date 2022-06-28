@@ -1,3 +1,5 @@
+#Program Ruby
+
 class Persegi
   def initialize(panjang, lebar)
     @panjang = panjang
